@@ -35,3 +35,4 @@ def generate_k(data, k):
 #平方和误差函数
 def distance(a,b):
     dimensions = len(a)
+    
