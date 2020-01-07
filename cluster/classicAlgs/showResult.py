@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def show_seed():
-    with open('.\seeds_dataset.txt') as f:
+    with open('./seeds_dataset.txt') as f:
         read_data = f.read()
         sValues = read_data.split()
         nValues = [float(x) for x in sValues]
@@ -21,4 +21,8 @@ def show_seed():
 
 
 if __name__ == '__main__':
-    show_seed()
+    data=((1,2),(3,4))
+
+    print(data[0][1])
+    # show_seed()
+

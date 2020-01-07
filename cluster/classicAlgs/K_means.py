@@ -1,6 +1,11 @@
 # from CSDN
 from collections import defaultdict
+# 知识点1： dict =defaultdict(factory_function),
+# 这个factory_function可以是list、set、str等等，作用是当key不存在时，返回的是工厂函数的默认值，
+# 比如list对应[ ]，str对应的是空字符串，set对应set( )，int对应0
 import random as ra
+import numpy as np
+import math
 
 
 # 随机产生数据域内k个初始簇中心点
@@ -32,7 +37,53 @@ def generate_k(data, k):
     return centers
 
 
-#平方和误差函数
-def distance(a,b):
+# 平方和误差函数(标准差）
+def distance(a, b):
     dimensions = len(a)
-    
+    _sum = 0
+    for dimension in range(dimensions):
+        difference_sq = (a[dimension] - b[dimension]) ** 2  # **表指数
+        _sum += difference_sq
+    return math.sqrt(_sum)
+
+
+# 将点分配到不同簇中,即分配到距离最近（标准差最小）的簇,center为簇中心的集合
+def assign_data_points(data, center):
+    assignments = []
+    for point in data:
+        shortest = 65536  # ?
+        shortest_index = 0
+        for i in range(len(center)):
+            val = (distance(point, center[i]))  # ?
+            if val < shortest:
+                shortest = val
+                shortest_index = i
+        assignments.append(shortest_index)
+        print(assignments)
+    return assignments  # 返回各个点被分配到的簇id的集合
+
+
+def avg_data_center(data):  # TODO: 是否正确??
+    dimensions = len(data[0])
+    center = []
+    for dimension in range(dimensions):
+        _sum = 0
+        for i in len(data):  # data的个数
+            _sum += data[i][dimension]
+        center.append(_sum / len(data))
+    return np.array(center)
+
+
+# 更新簇的均值，即中心,data为点云
+def update_data_center(data, target_names):
+    new_means = defaultdict(list)  # key不存在时,不存在时返回[]
+    center = []
+    # 知识点2：zip用法：a=[1,2,3],b=[4,5,6],zp=zip(a,b),print(*zp) 返回：(1, 4) (2, 5) (3, 6)
+    for target_names, point in zip(target_names, data):
+        new_means[target_names].append(point)
+
+    for data in new_means.values():
+        center.append(avg_data_center(data))  # TODO: 是否正确??data是否为簇内的点云，若是一个点则有问题
+
+    return center
+
