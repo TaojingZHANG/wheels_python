@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8639d9-0e1e-4f06-9c0a-11fc3a85587a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cluster.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/.idea/threeAlgs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/.idea/threeAlgs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classicAlgs/K_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/K_means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classicAlgs/seeds_dataset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/seeds_dataset.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classicAlgs/showResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/classicAlgs/showResult.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classicAlgs/K_means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="109">
+              <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
               <folding>
                 <element signature="e#12#47#0" expanded="true" />
               </folding>
@@ -38,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classicAlgs/showResult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="359">
+              <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -55,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classicAlgs/showResult.py" />
         <option value="$PROJECT_DIR$/classicAlgs/K_means.py" />
+        <option value="$PROJECT_DIR$/classicAlgs/showResult.py" />
       </list>
     </option>
   </component>
@@ -68,10 +58,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1533" />
-    <option name="height" value="875" />
+    <option name="x" value="467" />
+    <option name="y" value="84" />
+    <option name="width" value="1371" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,6 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,10 +90,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/classicAlgs/showResult.py" />
   </component>
   <component name="RunDashboard">
@@ -177,13 +168,13 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.059096947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12815405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14520548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38767123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.110958904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -209,8 +200,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/classicAlgs/K_means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="109">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
           <folding>
             <element signature="e#12#47#0" expanded="true" />
           </folding>
@@ -219,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classicAlgs/showResult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="359">
+          <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

@@ -59,8 +59,8 @@ def assign_data_points(data, center):
                 shortest = val
                 shortest_index = i
         assignments.append(shortest_index)
-        print(assignments)
-    return assignments  # 返回各个点被分配到的簇id的集合
+        # print(assignments)
+    return assignments  # 返回各个点被分配到的簇id的集合序号，与原来的data顺序相对应（非map）
 
 
 # 求数据的中心
