@@ -63,12 +63,14 @@ def assign_data_points(data, center):
     return assignments  # 返回各个点被分配到的簇id的集合
 
 
-def avg_data_center(data):  # TODO: 是否正确??
+# 求数据的中心
+def avg_data_center(data):
     dimensions = len(data[0])
     center = []
     for dimension in range(dimensions):
         _sum = 0
-        for i in len(data):  # data的个数
+        data_len = len(data)
+        for i in range(data_len):  # data的个数
             _sum += data[i][dimension]
         center.append(_sum / len(data))
     return np.array(center)
@@ -83,7 +85,6 @@ def update_data_center(data, target_names):
         new_means[target_names].append(point)
 
     for data in new_means.values():
-        center.append(avg_data_center(data))  # TODO: 是否正确??data是否为簇内的点云，若是一个点则有问题
+        center.append(avg_data_center(data))  # data 为点云
 
     return center
-
