@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68baffa6-f61f-41b5-8159-467c5d165cb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/threeAlgs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/threeAlgs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/K_means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seeds_dataset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/seeds_dataset.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/showResult.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/showResult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="1456">
+              <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -34,10 +24,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/K_means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="1530">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#12#47#0" expanded="true" />
@@ -58,6 +48,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>generate_k</find>
+      <find>right_times</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,11 +63,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="465" />
-    <option name="y" value="154" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="402" />
+    <option name="y" value="102" />
     <option name="width" value="974" />
-    <option name="height" value="873" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,7 +91,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/showResult.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../testRelo/python_analysis" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -163,19 +154,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578388875586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update k-means, bug fixed, it works now">
+      <created>1579257937135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579257937135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
+    <frame x="402" y="102" width="974" height="654" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1679947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27877507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3068493" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,43 +190,28 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add K-means algorithm, not finish" />
     <MESSAGE value="update k-means fun()s" />
-    <option name="LAST_COMMIT_MESSAGE" value="update k-means fun()s" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/showResult.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/showResult.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="update k-means, bug fixed, it works now" />
+    <option name="LAST_COMMIT_MESSAGE" value="update k-means, bug fixed, it works now" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/axes/_subplots.py" />
-    <entry file="file://$PROJECT_DIR$/K_means.py">
+    <entry file="file://$PROJECT_DIR$/showResult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="1456">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
           <folding>
-            <element signature="e#12#47#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showResult.py">
+    <entry file="file://$PROJECT_DIR$/K_means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="1530">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#12#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
