@@ -73,15 +73,19 @@ def showSubFig2D(headers, data, selDim, format):
         plt.ylabel(headers[selDimID2])
         x = data[:, selDimID1]
         y = data[:, selDimID2]
-        plt1.plot(x, y, format)  # TODO：添加二分类/多分类的绘图功能
+        plt1.plot(x, y, format)
     plt.show()
+
+
+# TODO：添加可加入不同条件的二分类/多分类绘图功能，用不同颜色表示
 
 
 if __name__ == '__main__':
     dataPath = '/home/ztj/PRJ3_map/Data_bumper/result/data7_7.csv'
     headers, data = csvReader(dataPath)
     a = [[headers.index('dx'), headers.index('dy')],
-         [headers.index('S1C'), headers.index('S2C')]]
+         [headers.index('S1C'), headers.index('S2C')],
+         [headers.index('M1'), headers.index('M2')]]
     # showFig2D(headers, data, 1, 2, 'r*')
     showSubFig2D(headers, data, a, 'r*')  # todo:多线程，避免plot阻塞
 
