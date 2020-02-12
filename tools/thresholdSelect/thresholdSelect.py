@@ -12,7 +12,34 @@ class MainUI(QtWidgets.QMainWindow,Ui_Dialog):
         QtWidgets.QMainWindow.__init__(self)
         Ui_Dialog.__init__(self)
         self.setupUi(self)
+        self.btnGetLine.clicked.connect(MainUI.btnGetLine)
+        self.btnPlotLine.clicked.connect(MainUI.btnPlotLine)
+        self.btnDeleteLine.clicked.connect(MainUI.btnDeleteLine)
+        self.btnRePlot.clicked.connect(MainUI.btnRePlot)
+        self.spinGetLine.valueChanged['int'].connect(MainUI.spinGetLine)
+        self.spinPlotLine.valueChanged['int'].connect(MainUI.spinPlotLine)
+        self.spinDeleteLine.valueChanged['int'].connect(MainUI.spinDeleteLine)
 
+    def btnGetLine(self):
+        print("btnGetLine")
+
+    def btnPlotLine(self):
+        print("btnPlotLine")
+
+    def btnDeleteLine(self):
+        print("btnDeleteLine")
+
+    def btnRePlot(self):
+        print("btnRePlot")
+
+    def spinGetLine(self):
+        print("spinGetLine")
+
+    def spinPlotLine(self):
+        print("spinPlotLine")
+
+    def spinDeleteLine(self):
+        print("spinDeleteLine")
 
 class MainPlot:
     def main(self):
@@ -22,7 +49,7 @@ class MainPlot:
              [headers.index('S1C'), headers.index('S2C')],
              [headers.index('M1'), headers.index('M2')]]
         # showFig2D(headers, data, 1, 2, 'r*')
-        self.showSubFig2D(headers, data, a, 'r*')  # todo:多线程，避免plot阻塞
+        self.showSubFig2D(headers, data, a, 'r*') # 多线程，避免plot阻塞
 
         print("finish run MainPlot()")
 
