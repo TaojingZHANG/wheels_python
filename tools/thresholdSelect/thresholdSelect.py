@@ -125,8 +125,16 @@ class MainPlot:
             plt1.plot(x, y, format)
 
         pos = plt.ginput(2)  # 获得plot上点击的位置
-        print(pos[0][0])
-        print(pos[1])
+        x_a=pos[0][0]
+        x_b=pos[0][1]
+        x_c=pos[1][0]
+        x_d=pos[1][1]
+
+        k=(x_d-x_b)/(x_c-x_a)
+        b=x_b-x_a*k
+
+        print("k=",k)
+        print("b=",b)
         plt.show()
 
 
