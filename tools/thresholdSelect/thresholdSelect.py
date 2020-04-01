@@ -7,6 +7,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from testUI import Ui_Dialog
 
 
+# 目标1：输入n维特征，两两组合，定义一个比例，如1:1，即缩小阈值范围后 ok/error的减少个数比为1:1，最后给出各个阈值范围， 是否可行 ？
+
+
 class MainUI(QtWidgets.QMainWindow,Ui_Dialog):
     def __init__(self):
         QtWidgets.QMainWindow.__init__(self)

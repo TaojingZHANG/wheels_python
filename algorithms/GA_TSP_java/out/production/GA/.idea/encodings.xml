@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/GeneticTSP/GeneticAlgorithm.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/GeneticAlgorithm.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/MainRun.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/MainRun.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/SpeciesIndividual.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/SpeciesIndividual.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/SpeciesPopulation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/SpeciesPopulation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/TSPData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GeneticTSP/TSPData.java" charset="GBK" />
+  </component>
+</project>
