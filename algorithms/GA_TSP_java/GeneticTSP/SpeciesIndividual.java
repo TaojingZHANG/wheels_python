@@ -98,7 +98,7 @@ public class SpeciesIndividual {
             totalDis += TSPData.disMap[curCity][nextCity];
         }
 
-        this.distance = totalDis;
+        this.distance = totalDis; //计算了总长度
         this.fitness = 1.0f / totalDis;
     }
 

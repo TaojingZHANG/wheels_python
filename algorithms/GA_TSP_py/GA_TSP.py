@@ -1,20 +1,38 @@
 import numpy as np
 
 
-class SpeciesIndividual:# 个体
-    fitness = 0.0 #适应度
+class SpeciesIndividual:  # 个体
+    fitness = 0.0  # 适应度
     distance = 0.0
-    rate = 0.0 # rate = point.fitness/totalFitness
+    rate = 0.0  # rate = point.fitness/totalFitness
 
+    def __init__(self, genes_len, disMap):
+        self.genes_len = genes_len
+        self.disMap = disMap
+        self.genes = np.zeros(genes_len)
+        print("SpeciesIndividual.init()")
 
-    def __init__(self,city_num):
-        self.genes = np.zeros(city_num)
+    def createByRandomGenes(self):  # 初始化基因（随机）
+        print("SpeciesIndividual.createByRandomGenes()")
+        for i in range(0, self.genes_len):  # 初始化为0～genes_len
+            self.genes[i] = i
 
-    def createByRandomGenes(self):#初始化基因（随机）
-        pass
+        for i in range(0, self.genes_len):  # 随机交换,这边改成贪心算法可以提速
+            rand = np.random.choice(self.genes_len)
+            temp = self.genes[i]
+            self.genes[i] = self.genes[rand]
+            self.genes[rand] = temp
+        # print("genes[] = ",self.genes)
 
-
-
+    def calFitness(self):  # 计算适应度 （修改重点）
+        totalDist = 0.0
+        for i in range(0, self.genes_len):
+            curCity = int(self.genes[i])
+            nextCity = int(self.genes[(i + 1) % self.genes_len])
+            totalDist = totalDist + disMap[curCity][nextCity]
+        self.distance = totalDist
+        self.fitness = 1.0 / self.distance
+        print("totalDist:", totalDist)
 
 
 
@@ -45,3 +63,7 @@ for i in range(0, city_num):
         disMap[j][i] = dist
 
 print("dist between city0 and city1: ", disMap[0][1])
+
+indiv = SpeciesIndividual(city_num, disMap)
+indiv.createByRandomGenes()
+indiv.calFitness()
