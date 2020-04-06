@@ -11,7 +11,7 @@ public class TSPData {
 	static int CITY_NUM; //城市数
 	static final int SPECIES_NUM=200; //种群数
 	static final int DEVELOP_NUM=1000; //进化代数
-	static final float pcl=0.6f,pch=0.95f;//交叉概率
+	static final float pcl=0.6f,pch=1.0f;//交叉概率
 	static final float pm=0.4f;//变异概率
 	static final float[][] disMap; //地图数据
 	static

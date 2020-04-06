@@ -141,22 +141,22 @@ public class GeneticAlgorithm {
         list.head = newSpeciesPopulation.head;
     }
 
-    //交叉操作
+    //交叉操作，TODO:check，每次迭代，只对两个物种个体进行交叉？
     void crossover(SpeciesPopulation list) {
         //以概率pcl~pch进行
         float rate = (float) Math.random();
         if (rate > TSPData.pcl && rate < TSPData.pch) {
             SpeciesIndividual point = list.head.next;//游标
             Random rand = new Random();
-            int find = rand.nextInt(list.speciesNum);
-            while (point != null && find != 0)//寻找表尾结点
+            int find = rand.nextInt(list.speciesNum); //找到一个随机个体
+            while (point != null && find != 0)//寻找表尾结点/随机的个体
             {
                 point = point.next;
                 find--;
             }
 
-            if (point.next != null) {
-                int begin = rand.nextInt(TSPData.CITY_NUM);
+            if (point.next != null) {//找到了随机的个体
+                int begin = rand.nextInt(TSPData.CITY_NUM); //产生一个随机数，这个个体内开始交叉的基因位置
 
                 //取point和point.next进行交叉，形成新的两个染色体
                 for (int i = begin; i < TSPData.CITY_NUM; i++) {

@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476e76f8-4948-4f03-8aac-5d19b320a626" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/GeneticTSP/SpeciesIndividual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/GeneticTSP/SpeciesIndividual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/MainRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/MainRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DeepLearning/keras_NN_sample1/readme.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../DeepLearning/keras_NN_sample1/readme.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/GeneticTSP/GeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/GeneticTSP/GeneticAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/GeneticTSP/TSPData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/GeneticTSP/TSPData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/GeneticAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/GeneticAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/SpeciesIndividual.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/SpeciesIndividual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/SpeciesPopulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/SpeciesPopulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/TSPData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GA_TSP_java/out/production/GA/GeneticTSP/TSPData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GA_TSP_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GA_TSP_py.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GA_TSP.py" beforeDir="false" afterPath="$PROJECT_DIR$/GA_TSP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/threeAlgs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/threeAlgs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/K_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/K_means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/seeds_dataset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/seeds_dataset.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cluster/classicAlgs/showResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cluster/classicAlgs/showResult.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +38,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GA_TSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="-3547">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,6 +59,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>}</find>
+      <find>city_num</find>
+      <find>totalDist</find>
+      <find>SpeciesIndividual</find>
+      <find>list</find>
+      <find>species</find>
     </findStrings>
     <replaceStrings>
       <replace>]</replace>
@@ -59,13 +87,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="800" />
-    <option name="y" value="27" />
-    <option name="width" value="800" />
-    <option name="height" value="873" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -79,6 +108,10 @@
               <item name="GA_TSP_py" type="b2602c69:ProjectViewProjectNode" />
               <item name="GA_TSP_py" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GA_TSP_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,8 +120,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../testRelo/python_analysis" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,7 +143,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/software/anaconda/bin/python3" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -138,36 +171,61 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10108074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20405982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32739726" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33734939" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.list_new[23]" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/software/anaconda/lib/python3.7/site-packages/numpy/random/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$USER_HOME$/software/anaconda/lib/python3.7/site-packages/numpy/random/__init__.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GA_TSP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="-3547">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
